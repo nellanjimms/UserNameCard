@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-image:url(/Images/cornered-stairs.svg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container {
+    margin: 0 auto;
+    background-color: #282828;
+    min-width: 300px;
+}
+h1 {
+    background-color: #363434;
+    color: white;
+    text-align: center;
+    margin: 0 20px;
+
+}
+::placeholder {
+    color:#aeaaaa;
+    font-size: 12px;
+}
+.content {
+    font-weight: 400;
+    display: flex;
+    flex:1 100%;
+}
+.formContainer {
+    flex: 1;
+}
+.asideContainer {
+    flex: 1;
+}
+form, aside {
+    background-color: #464545;
+    font-size: 16px;
+
+}
+input, button {
+    background-color: #838080;
+    padding: 5px;
+    color: black;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    
+}
+aside {
+    height: 100%;
+    color: #240090;
+}
